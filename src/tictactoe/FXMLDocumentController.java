@@ -32,7 +32,7 @@ public class FXMLDocumentController implements Initializable {
     int width = 500;
     int heigth = 500;
     boolean running = true;
-    int bigWinner = -1; 
+    int bigWinner = -1;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -91,19 +91,27 @@ public class FXMLDocumentController implements Initializable {
         }
 
         if (bigWinner == 2) {
-            gc.setStroke(Color.DARKTURQUOISE);
-            gc.setLineWidth(8);
-            gc.setFont(new Font(80));
-            gc.strokeText("YOU LOSE ,", 75, 225);
+            gc.setStroke(Color.BLACK);
+            gc.setLineWidth(10);
+            gc.setFont(new Font(100));
+            gc.strokeText("YOU LOSE,", 10, 225);
             gc.strokeText("BITCH!", 50, 325);
+
+            gc.setFont(new Font(100));
+            gc.setFill(Color.DARKTURQUOISE);
+            gc.fillText("YOU LOSE,", 10, 225);
+            gc.fillText("BITCH!", 50, 325);
 
         }
         if (bigWinner == 0) {
-            gc.setStroke(Color.DARKTURQUOISE);
-            gc.setLineWidth(8);
-            gc.setFont(new Font(80));
+            gc.setStroke(Color.BLACK);
+            gc.setLineWidth(10);
+            gc.setFont(new Font(100));
             gc.strokeText("GG WP", 75, 225);
-            //gc.strokeText("BITCH!", 50, 325);
+
+            gc.setFill(Color.DARKTURQUOISE);
+            gc.setFont(new Font(100));
+            gc.fillText("GG WP", 75, 225);
 
         }
 
