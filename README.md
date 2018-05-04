@@ -1,23 +1,24 @@
 
 # Table of Contents
 
-1.  [Abstract](#org0895909)
-2.  [Installation](#orgbbc4a68)
-3.  [Instructions](#orgbac40b1)
-4.  [Code notes](#org74810b0)
-    1.  [Main logic](#orge643014)
+1.  [Abstract](#org6c5e5cb)
+2.  [Installation](#org60ec6c5)
+3.  [Instructions](#orgbd5b092)
+4.  [Code notes](#org2d68e23)
+    1.  [Main logic](#orgaf95629)
 
 
 
-<a id="org0895909"></a>
+<a id="org6c5e5cb"></a>
 
 # Abstract
 
 ![img](./demo.png)
+//
 Very simple 'project' from 'back in the day'. It's a basic Tic-Tac-Toe game that also implements the Mini-Max algorithm for playing two-player games. 
 
 
-<a id="orgbbc4a68"></a>
+<a id="org60ec6c5"></a>
 
 # Installation
 
@@ -32,19 +33,19 @@ After that just run the jar file:
     java -jar target/tictacminimax-1.0-SNAPSHOT.jar
 
 
-<a id="orgbac40b1"></a>
+<a id="orgbd5b092"></a>
 
 # Instructions
 
 For the time being, the "human" player is the one making the first move. Just clock on the rectangles and play the game. The "computer" will make it's moves automagically. At the end of the game, a "message" will be displyed to congratulate you&#x2026;or not congratulate you, find the messages yourself!
 
 
-<a id="org74810b0"></a>
+<a id="org2d68e23"></a>
 
 # Code notes
 
 
-<a id="orge643014"></a>
+<a id="orgaf95629"></a>
 
 ## Main logic
 

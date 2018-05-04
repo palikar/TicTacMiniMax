@@ -4,6 +4,7 @@
 * Abstract
 #+NAME:   fig:End screen of the game
 [[./demo.png]]
+//
 Very simple 'project' from 'back in the day'. It's a basic Tic-Tac-Toe game that also implements the Mini-Max algorithm for playing two-player games. 
 * Installation
 Just run /maven/ to package the /jar/ file:
