@@ -73,7 +73,6 @@ public class Game {
         index = i;
       }
     }
-
     return nextStates.get(index);
   }
 
